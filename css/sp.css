@@ -1,0 +1,472 @@
+@charset "utf-8";
+
+/* sp  */
+
+@media only screen and (max-width: 640px) {
+
+#header_wapper{
+	height:60px;
+}
+
+.header {
+	min-width:300px;
+}
+
+header h1 img{
+	float:left;
+	width:200px;
+	height:auto;
+	margin:-10px 0 0 10px;
+}
+
+nav{
+	float:none;
+	clear:both;
+}
+
+nav#menu{
+	display:none;
+	margin:10px;
+	border:5px solid #ccc;
+}
+
+nav#menu ul{
+	margin:0;
+	padding:0;
+}
+
+nav#menu li{
+	border-top:1px solid #ccc;
+	width:100%;
+	text-align:center;
+}
+
+nav#menu li a{
+	display:block;
+	border-radius:0;
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+	font-size:16px;
+	border:0;
+	width:100%;
+	height:20px;
+	padding:12px 0
+}
+
+nav#menu li a:hover{
+	background:#a52126;
+	color:#fff;
+}
+
+nav#menu li.menu_close{
+	display:inline;
+	border:5px solid #ccc;
+}
+
+nav#menu li.menu_close a{
+	height:auto;
+	background:#ccc;
+	margin:0;
+	padding:5px 0;
+}
+
+nav#menu li.menu_close a:hover{
+	background:#666;
+}
+
+.button-toggle{
+	display:inline;
+	float:right;
+	margin:-10px 0 0 0;
+}
+
+.button-toggle img{
+	width:80%;
+	height:80%;
+}
+
+.top_menu1,
+.top_menu2,
+.top_menu3,
+.top_menu4{
+	float:none;
+	width:100%;
+}
+
+.top_menu1,
+.top_menu2,
+.top_menu3{
+	margin:0 0 5% 0;
+}
+
+.top_menu4{
+	margin:0 0 10px 0;
+}
+
+.top_menu1 img,
+.top_menu2 img,
+.top_menu3 img,
+.top_menu4 img{
+	max-width: 100%;
+	height: auto;
+	margin:0;
+}
+
+.ticker {
+	float:none;
+	width: 98%;
+	max-width:500px;
+	text-align: center;
+	margin:0 auto 30px auto;
+}
+
+.ticker h2{
+	display:none;
+}
+
+	.ticker ul {
+		width: 100%;
+		left:0;
+		font-size:12px;
+		text-align:left;
+	}
+	
+	.ticker ul li{
+		width:100%;
+		padding:0 1em;
+	}
+
+#news .isc_link01,
+#news .isc_link02,
+#news .isc_link03,
+#news .isc_link04 {
+	float:none;
+	clear:both;
+	width:100%;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+
+/*??K?w???~*/
+
+#main_content_wrap{
+	float:none;
+	clear:both;
+	width:100%;
+	margin:0;
+}
+
+#main_content{
+	margin:0 0 2em 0;
+	padding:0 1em;
+}
+	#main_content p{
+		margin:1em 0;
+	}
+	
+	#main_content dl dt{
+		float:none;
+		width:100%;
+		border-bottom:1px dotted #666;
+		margin-bottom:0.5em;
+	}
+	
+	#main_content dl dd{
+		border-left:0;
+		margin:0 0 1.5em 0;
+		padding:0;
+	}
+	
+	#main_content dl dd ol{
+		margin:0;
+		padding:0 0 0 1em;
+	}
+
+	#main_content .clients{
+		float:none;
+		width:100%;
+		margin:0;
+	}
+
+	.fixed {
+		position: static;
+	}
+
+#side_menu{
+	float:none;
+	clear:both;
+	width:100%;
+	min-height:0;
+	background:0;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:0;
+	padding:1em 10px 0 10px;
+}
+
+	#side_menu h2{
+		margin:0;
+		padding:0;
+		font-size:110%;
+		font-weight:bold;
+	}
+	
+	#side_menu ul{
+		margin:1em 1em 1em 0;
+		padding:0;
+	}
+	
+	#side_menu ul li{
+		list-style:none;
+		background:url(../images/list_01.gif) no-repeat 0 center;
+		padding-left:13px;
+		margin-bottom:1em;
+	}
+
+form textarea{
+	width:18em;
+}
+
+.contact_form .name_box,
+.contact_form .shorttext {
+	width: 16em;
+}
+
+.footer {
+	display:inline-block;
+	text-align:center;
+	margin:0 auto 20px auto;
+}
+
+.footer .f_left{
+	float:none;
+	clear:both;
+	font-family:serif;
+	text-align:center;
+	margin:1em auto;
+}
+
+.footer .f_left .security{
+	float:none;
+	margin:20px 0 30px 0;
+}
+
+.footer .f_left .isc_info{
+	float:none;
+	clear:both;
+	text-align:left;
+	margin:0.5em 0 1em 0;
+}
+
+.footer .f_left .isc_info h3{
+	text-align:center;
+	font-size:140%;
+	margin:0;
+}
+
+.footer .f_left .isc_info p{
+	font-size:130%;
+}
+
+.footer .f_right{
+	float:none;
+	clear:both;
+}
+
+.footer .policy{
+	text-align:center;
+}
+
+.footer .copy{
+	text-align:center;
+}
+
+
+/* 追加　ここから*/
+
+#main_content #map_caption dt {
+		float:none;
+		width:100%;
+		border-bottom:1px dotted #666;
+		margin-bottom:0.5em;
+}
+
+#map1 {
+	width:100%;
+	height: 350px;
+	margin: 0 auto;
+	border: none;
+}
+
+#ACCESS_inner01 p,
+#ACCESS_inner02 p,
+#ACCESS_inner03 p,
+#outline p {
+	text-indent: 0;
+}
+
+.contact_form {
+	margin: 0;
+}
+
+form textarea{
+	width: 100%;
+}
+
+.group {
+	width: 100%;
+	margin-left: 0.7em;
+}
+
+#date p {
+	margin: 0 0 0 3em;
+}
+
+.procedure_table th {
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+.procedure_table td {
+	width: 100%;
+	display: block;
+	padding: 1em;
+}
+
+.procedure_table .bg {
+	background-color: #F5ECDC;
+	text-align: left;
+	padding: 1em;
+	width: 100%;
+}
+
+#POLICY02_inner .detail_box dt,
+#POLICY02_inner .guidance dt {
+	margin: 0;
+	font-weight: normal;
+	width: 100%;
+}
+
+.POLICY01_detail,
+.POLICY02_detail {
+	padding: 0;
+}
+
+#sign span {
+	font-size: 100%;
+}
+
+#container {
+	padding: 0;
+}
+
+#main_content .guidance ul,
+#main_content .guidance p {
+	margin: 0;
+	padding: 0;
+}
+
+#main_content .guidance p {
+	text-indent: 0;
+}
+
+.guidance #info {
+	display: block;
+	padding-top: 0.5em;
+}
+
+#main_content .guidance .sub_ttl {
+	padding-top: 0.5em;
+}
+
+#main_content .guidance {
+	padding: 1em 1em 0 1em;
+}
+
+#main_content .guidance #guidance_ttl{ 
+	font-size: 120%;
+}
+
+#main_content h3 {
+	font-size: 120%;
+}
+
+#main_content .POLICY_txt p {
+	margin: 0;
+}
+
+#date {
+	font-size: 90%;
+}
+
+#POLICY01_inner li,
+#POLICY02_inner li {
+	padding: 0;
+}
+
+#main_content #POLICY01_inner p,
+#main_content #POLICY02_inner p {
+	margin: 0.2em 0 0.5em -1.2em;
+}
+
+#POLICY01_inner,
+#POLICY02_inner {
+	margin-left : -1em;
+}
+
+#POLICY01_inner .ttl,
+#POLICY02_inner .ttl {
+	font-size: 120%;
+	padding-bottom: 0.5em;
+}
+
+#main_content #POLICY02_inner .procedure_table {
+	margin: 0.5em 1.5em 0.5em -2em;
+}
+
+#main_content #POLICY01_inner .detail_box dd {
+	padding-top: 1em;
+}
+
+.forPC {
+	display: none;
+}
+
+.forOthers {
+	display: inline;
+}
+
+#ACCESS_inner01 .isc_link02 {
+	padding-left: 0;
+}
+
+#POLICY02_inner .detail_box {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+#procedure_margin {
+	margin-top: 2em;
+}
+
+#POLICY02_inner .detail_box {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+#main_content h2 {
+	font-size: 170%;
+}
+
+.photo {
+	float: none;
+	margin: 0 auto 1em;
+}
+
+/* 追加　ここまで*/
+
+
+/* //sp  */

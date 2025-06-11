@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	line-height:1.5;
+	font-family: "Avenir Next", Verdana, "Hiragino Kaku Gothic Pro", "Yu Gothic", Meiryo, Osaka, sans-serif;
+}
+
+a:link{color:#1B40B2;}
+a:visited{color:#1B40B2;}
+a:hover{color:#3366CC;text-decoration:none;}
+
+.header {
+	width: 100%;
+	max-width:1280px;
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	margin:auto;
+	z-index: 100;
+}
+
+header h1 img{
+	float:left;
+	margin-left:20px;
+}
+
+nav{
+	float:right;
+	text-align:right;
+	margin:-20px 20px 0 0;
+}
+
+nav#menu ul{
+	padding:0;
+}
+
+nav#menu li{
+	display:inline-block;
+	text-align:center;
+}
+
+nav#menu li a{
+	display:block;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:40px;
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+	font-size:13px;
+	width:70px;
+	height:45px;
+	padding-top:25px;
+}
+
+nav#menu li a:hover{
+	background:#a52126;
+	color:#fff;
+}
+
+nav#menu li.act a{
+	color:#a52126;
+}
+
+nav#menu li.act a:hover{
+	color:#fff;
+}
+
+nav#menu li.menu_close{
+	display:none;
+}
+
+.button-toggle{
+	display:none;
+}
+
+#container{
+	margin:0 auto;
+	text-align:center;
+	padding:0 10px;
+}
+
+#main_wrap{
+	overflow:hidden;
+	max-width:1200px;
+	text-align:center;
+	margin:0 auto;
+	padding:30px 0 20px 0;
+}
+
+#main_wrap a:hover {
+	opacity:0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-o-opacity: 0.8;
+}
+
+.top_menu1,
+.top_menu2,
+.top_menu3,
+.top_menu4{
+	float:left;
+	width:24%;
+}
+
+.top_menu1,
+.top_menu2,
+.top_menu3{
+	margin-right:1.3333%;
+}
+
+.top_menu4{
+	margin-right:0;
+}
+
+.top_menu1 img,
+.top_menu2 img,
+.top_menu3 img,
+.top_menu4 img{
+	max-width: 100%;
+	height: auto;
+}
+
+#news{
+	overflow:auto;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+#news #isc_link_wrap {
+	overflow:hidden;
+	max-width:1200px;
+	text-align:center;
+	padding:0;
+}
+
+#news #isc_link_wrap a:hover {
+	opacity:0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-o-opacity: 0.8;
+}
+
+#news .isc_link01,
+#news .isc_link02,
+#news .isc_link03,
+#news .isc_link04 {
+	float:left;
+	width:23%;
+	text-align:left;
+	padding:0;
+	margin: 20px 10px 10px 10px;
+}
+
+#news .isc_link01 img,
+#news .isc_link02 img,
+#news .isc_link03 img,
+#news .isc_link04 img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*?j???[?X?e?B?b?J?[*/
+
+.ticker {
+	/* バナーを下段に配置 */
+	/*float:left;*/
+	margin-top:10px;
+	/*width: 50%;*/
+	height:2em;
+	text-align: left;
+	border: #333 1px solid;
+	position: relative;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	background-color:#ffffff;
+}
+
+.ticker h2{
+	width:5em;
+	height:2em;
+	font-size:95%;
+	color:#fff;
+	background:#333;
+	padding:12px 0 10px 10px;
+	margin-top:-1.5em;
+}
+
+	.ticker ul {
+		width: 100%;
+		top: -0.3em;
+		left:7em;
+		position: absolute;
+		font-size:90%;
+	}
+
+	.ticker ul li {
+		/*width: 27em;*/
+		width: 100%;
+		display: none;
+	}
+
+.pagetop {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
+.pagetop a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #a52126;
+	border-radius: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	line-height: 50px;
+	opacity:0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-o-opacity: 0.8;
+}
+
+.pagetop a:hover {
+	opacity:0.5;
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-o-opacity: 0.5;
+}
+
+.footer {
+	clear:both;
+	overflow:auto;
+	font-size:90%;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.footer li{
+	float:left;
+	list-style:none;
+}
+
+.footer .security{
+	float:left;
+	margin:1em 0;
+	padding:0;
+}
+
+.footer .security li{
+	margin-right:1em;
+}
+
+.footer .f_left{
+	float:left;
+	font-family:serif;
+	text-align:left;
+	margin:1em 0;
+}
+
+.footer .f_left h3{
+	font-size:100%;
+}
+
+.footer .f_left .isc_info{
+	float:right;
+	margin:0.5em 0 1em 0;
+}
+
+.footer .f_right{
+	float:right;
+	margin:1em 0;
+}
+
+.footer .policy{
+	text-align:right;
+	margin:2em 0;
+}
+
+.footer .copy{
+	text-align:right;
+	font-family:serif;
+	margin:1em 0;
+}
+
+
+
+@media print{
+
+	#side_menu {display:none;}
+	#main_content {margin-left:0!important;}
+}
+
+

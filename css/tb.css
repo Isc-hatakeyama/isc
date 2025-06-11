@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* tablet  */
+
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+
+#header_wapper{
+	height:120px;
+}
+
+header h1{
+	text-align:center;
+}
+
+header h1 img{
+	float:none;
+	margin: -10px 0 0 0;
+}
+
+nav{
+	float:none;
+	text-align:center;
+	margin: -20px 0 0 0;
+}
+
+nav#menu li{
+	display:inline-block;
+	text-align:center;
+	width:15%;
+}
+
+nav#menu li a{
+	display:block;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:5px;
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+	font-size:14px;
+	width:100%;
+	height:26px;
+	padding-top:5px;
+}
+
+#main_wrap{
+	margin-bottom:0;
+	padding:0;
+}
+
+.top_menu1,
+.top_menu3{
+	float:left;
+	width:45%;
+	margin:2.5% 3.3333% 0 3.333%;
+}
+
+.top_menu2,
+.top_menu4{
+	float:left;
+	width:45%;
+	margin:2.5% 3.333% 0 0;
+}
+
+.ticker {
+	float:none;
+	width: 93%;
+	text-align: left;
+	margin:20px auto 30px auto;
+}
+
+.ticker h2{
+	padding:12px 0 10px 10px;
+}
+
+.ticker ul {
+		width: 80%;
+		left:7em;
+		font-size:95%;
+	}
+
+#news #isc_link_wrap {
+	max-width:960px;
+	width:93%;
+	margin:0 auto;
+}
+
+#news .isc_link01,
+#news .isc_link02,
+#news .isc_link03,
+#news .isc_link04 {
+	float:left;
+	/*width:32%;*/
+	width:46%;
+	text-align:left;
+	margin:0 3.3333% 0 3.333%;
+}
+
+#news .isc_link01,
+#news .isc_link02{
+	margin: 10px 2% 10px 0;
+}
+
+#news .isc_link03,
+#news .isc_link04{
+	/*margin: 10px 0;*/
+	margin: 10px 2% 10px 0;
+}
+
+	#main_content dl dt{
+		float:none;
+		width:100%;
+		border-bottom:1px dotted #666;
+		margin-bottom:0.5em;
+	}
+	
+	#main_content dl dd{
+		border-left:0;
+		margin:0 0 1.5em 0;
+		padding:0;
+	}
+
+form textarea{
+	width:20em;
+}
+
+.footer {
+	display:inline-block;
+	text-align:center;
+	margin:0 auto 20px auto;
+}
+
+.footer .f_left{
+	float:left;
+	font-family:serif;
+	text-align:left;
+	margin:1em auto;
+}
+
+.footer .f_left .isc_info{
+	float:right;
+	margin:0.5em 0 1em 0;
+}
+
+.footer .f_right{
+	float:none;
+	clear:both;
+}
+
+.footer .policy{
+	text-align:center;
+}
+
+.footer .copy{
+	text-align:center;
+}
+
+/* 追加　ここから*/
+
+#main_content #map_caption dt {
+		float:none;
+		width:100%;
+		border-bottom:1px dotted #666;
+		margin-bottom:0.5em;
+}
+
+#map1 {
+	width:100%;
+	height: 400px;
+	margin: 0 auto;
+	border: none;
+}
+
+.forOthers {
+	display: none;
+}
+
+#news #hp,
+#news #blog,
+#news #Jdream {
+	width: 42%;
+}
+
+/* 追加　ここまで*/
+
+
+/* //tablet  */
